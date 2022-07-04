@@ -1,0 +1,332 @@
+[
+    {
+        "model": "handbooks.handbook",
+        "pk": 1,
+        "fields": {
+            "handbook_id": 1,
+            "title": "Long handbook title 1",
+            "short_title": "Short title 1",
+            "description": "Handbook description 1",
+            "version": "1.0",
+            "start_at": "2022-06-30"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 2,
+        "fields": {
+            "handbook_id": 1,
+            "title": "Long handbook title 1",
+            "short_title": "Short title 1",
+            "description": "Handbook description 1",
+            "version": "1.1",
+            "start_at": "2022-07-01"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 3,
+        "fields": {
+            "handbook_id": 1,
+            "title": "Long handbook title 1",
+            "short_title": "Short title 1",
+            "description": "Handbook description 1",
+            "version": "2.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 4,
+        "fields": {
+            "handbook_id": 2,
+            "title": "Long handbook title 2",
+            "short_title": "Short title 2",
+            "description": "Handbook description 2",
+            "version": "1.10",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 5,
+        "fields": {
+            "handbook_id": 3,
+            "title": "Long handbook title 3",
+            "short_title": "Short title 3",
+            "description": "Handbook description 3",
+            "version": "10.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 6,
+        "fields": {
+            "handbook_id": 4,
+            "title": "Long handbook title 4",
+            "short_title": "Short title 4",
+            "description": "Handbook description 4",
+            "version": "1.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 7,
+        "fields": {
+            "handbook_id": 5,
+            "title": "Long handbook title 5",
+            "short_title": "Short title 5",
+            "description": "Handbook description 5",
+            "version": "1.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 8,
+        "fields": {
+            "handbook_id": 6,
+            "title": "Long handbook title 6",
+            "short_title": "Short title 6",
+            "description": "Handbook description 6",
+            "version": "1.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 9,
+        "fields": {
+            "handbook_id": 7,
+            "title": "Long handbook title 7",
+            "short_title": "Short title 7",
+            "description": "Handbook description 7",
+            "version": "1.0",
+            "start_at": "2022-06-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 10,
+        "fields": {
+            "handbook_id": 8,
+            "title": "Long handbook title 8",
+            "short_title": "Short title 8",
+            "description": "Handbook description 8",
+            "version": "1.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 11,
+        "fields": {
+            "handbook_id": 12,
+            "title": "Long handbook title 12",
+            "short_title": "Short title 12",
+            "description": "Handbook description 12",
+            "version": "1.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 12,
+        "fields": {
+            "handbook_id": 13,
+            "title": "Long handbook title 13",
+            "short_title": "Short title 13",
+            "description": "Handbook description 13",
+            "version": "1.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 13,
+        "fields": {
+            "handbook_id": 14,
+            "title": "Long handbook title 14",
+            "short_title": "Short title 14",
+            "description": "Handbook description 14",
+            "version": "1.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbook",
+        "pk": 14,
+        "fields": {
+            "handbook_id": 15,
+            "title": "Long handbook title 15",
+            "short_title": "Short title 15",
+            "description": "Handbook description 15",
+            "version": "1.0",
+            "start_at": "2022-07-02"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 1,
+        "fields": {
+            "handbook_id": 1,
+            "element_code": "el1",
+            "value": "value1.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 2,
+        "fields": {
+            "handbook_id": 1,
+            "element_code": "el2",
+            "value": "value2.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 3,
+        "fields": {
+            "handbook_id": 2,
+            "element_code": "el1",
+            "value": "value1.2"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 4,
+        "fields": {
+            "handbook_id": 3,
+            "element_code": "el1",
+            "value": "value1.3"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 5,
+        "fields": {
+            "handbook_id": 4,
+            "element_code": "el3",
+            "value": "value3.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 6,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el4",
+            "value": "value4.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 7,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el5",
+            "value": "value5.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 8,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el6",
+            "value": "value6.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 9,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el7",
+            "value": "value7.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 10,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el8",
+            "value": "value8.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 11,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el9",
+            "value": "value9.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 12,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el10",
+            "value": "value10.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 13,
+        "fields":{
+            "handbook_id": 5,
+            "element_code": "el11",
+            "value": "value11.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 14,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el12",
+            "value": "value12.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 15,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el13",
+            "value": "value13.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 16,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el14",
+            "value": "value14.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 17,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el15",
+            "value": "value15.1"
+        }
+    },
+    {
+        "model": "handbooks.handbookelement",
+        "pk": 18,
+        "fields": {
+            "handbook_id": 5,
+            "element_code": "el16",
+            "value": "value16.1"
+        }
+    }
+]

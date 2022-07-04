@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  django:
+    image: django
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: >
+        sh -c "/tmp/wait-db.sh &&
+        python manage.py migrate --noinput &&
+        python manage.py loaddata handbooks.json &&
+        python manage.py initadmin &&
+        python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - 8000:8000
+    environment:
+      - SQL_HOST=postgres
+      - SQL_PORT=5432
+    depends_on:
+      - postgres
+ 
+  postgres:
+    image: postgres:14.1-alpine3.15
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_USER=django
+      - POSTGRES_PASSWORD=django
+      - POSTGRES_DB=django_dev
